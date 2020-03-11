@@ -1,5 +1,5 @@
 // Adapted from https://docs.opencv.org/3.4/dd/d00/tutorial_js_video_display.html
-import cv from "https://github.com/Stratahive/trial_webcam_1/blob/master/src/opencv.js";
+import cv from "../opencv.js";
 
 let video = document.getElementById("videoInput"); // video is the id of video tag
 video.width = 640;
