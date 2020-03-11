@@ -1,5 +1,5 @@
 // Adapted from https://docs.opencv.org/3.4/dd/d00/tutorial_js_video_display.html
-import cv from "./opencv.js";
+import cv from "../opencv.js";
 
 let video = document.getElementById("videoInput"); // video is the id of video tag
 video.width = 640;
